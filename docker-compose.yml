@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  php-apache:
+    build: .
+    container_name: stripe-php
+    ports:
+      - "8000:80"
+    volumes:
+      - ./src:/var/www/html
+    environment:
+       STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY}
+       PAYPAL_CLIENT_ID: ${PAYPAL_CLIENT_ID}
+       PAYPAL_CLIENT_SECRET: ${PAYPAL_CLIENT_SECRET}

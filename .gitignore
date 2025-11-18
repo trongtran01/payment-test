@@ -1,0 +1,35 @@
+# =============================
+# PHP / Composer
+# =============================
+vendor/
+composer.lock
+
+# =============================
+# Environment
+# =============================
+.env
+.env.local
+.env.*.local
+
+# =============================
+# Docker
+# =============================
+*.log
+*.cache
+*.pid
+*.swp
+docker-compose.override.yml
+
+# =============================
+# System / IDE
+# =============================
+.DS_Store
+Thumbs.db
+*.idea/
+*.vscode/
+*.phpstorm.meta.php
+
+# =============================
+# Stripe / Secret keys
+# =============================
+# Stripe keys are in .env

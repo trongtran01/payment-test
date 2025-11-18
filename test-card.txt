@@ -1,0 +1,11 @@
+//STRIPE
+
+TRAN BINH TRONG
+4242 4242 4242 4242
+MM/YY: 02/29
+CVC: 123
+ZIP: 10000
+
+//PAYPAL
+person_test@personal.example.com
+^D@a#E1<
